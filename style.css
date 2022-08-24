@@ -33,8 +33,9 @@ body{
     width: 80px;
     height: 80px;
     
-    background-color: #27ae60;
+    background-color: #f5e907;
     border-radius: 50%;
+    border: 2px solid #2c3e50;
 }
 
 #arrows{
@@ -46,7 +47,7 @@ body{
     width: 500px;
     height: 85px;
     position: absolute;
-    bottom: 38px;
+    bottom: 33px;
     
     background-color: #7f8c8d;
 }
@@ -73,10 +74,17 @@ body{
     background-color: #7f8c8d
 }
 
+.my-header {
+    color: #c0392b;
+    font-family: "Helvetica";
+    font-size: 22px;
+    margin: 5px;
+}
 
 .sub-header {
     font-family: "Helvetica";
     color:cornflowerblue; 
     text-shadow: 2px 1px 2px black;
-    
+    font-size: 18px; 
+    margin: 5px;
 }
